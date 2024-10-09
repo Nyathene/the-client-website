@@ -49,6 +49,9 @@ h2{
 progress{
   grid-area: blank;
   height:12em;
+  @media (min-width:600px) {
+    width: 70vw;
+  }
 }
 .blur img{
   width: 40em;
@@ -60,9 +63,31 @@ progress{
   top: -20em;
   z-index: -1;  
 }
+.rechtsmidden{
+  position: absolute;
+  right: -20em;
+  z-index: -1;  
+}
 .rechtsonder{
   position: absolute;
   right: -17em;
+  bottom: -18em;
+  z-index: -1;  
+}
+.linksboven{
+  position: absolute;
+  left: -20em;
+  top: -20em;
+  z-index: -1;  
+}
+.linksmidden{
+  position: absolute;
+  left: -20em;
+  z-index: -1;  
+}
+.linksonder{
+  position: absolute;
+  left: -17em;
   bottom: -18em;
   z-index: -1;  
 }
@@ -87,6 +112,9 @@ p {
   font-size: 1em;
   grid-area: text;
   max-width: 30em;
+  @media (min-width: 600px){
+    max-width: 75vw;
+  }
 }
 
 .tekst{
