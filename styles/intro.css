@@ -103,7 +103,7 @@ button p {
   font-family: 'Figtree';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.2em;
   line-height: 19px;
   color: var(--text-colour);
 }
