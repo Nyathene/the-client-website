@@ -17,7 +17,7 @@ De pagina is responsive en is Mobile first ontworpen en gemaakt.
 
 De website is te zien op [nyathene.github.io/the-client-website](https://nyathene.github.io/the-client-website/)
 
-<img alt="Drop en Heal desktop webpagina" src="https://nyathene.github.io/the-client-website/docs/screenshots/Desktop.png" width="885">
+<img alt="Drop en Heal desktop webpagina" src="https://github.com/Nyathene/the-client-website/blob/main/docs/Screenshots/Desktop.png?raw=true" width="885">
 _Layout van de intro / homepage_
 
 ## Kenmerken
@@ -42,7 +42,7 @@ In de Head word de CSS file geladen, en het lettertype wordt hier vanuit de Goog
   ##### P
   De niet-vetgedrukte tekst staat hier iets minder focaal.
   #### FIGURE
-<img alt="Figures" src="https://nyathene.github.io/the-client-website/docs/screenshots/figures.png" width="885">
+<img alt="Figures" src="https://github.com/Nyathene/the-client-website/blob/main/docs/Screenshots/figures.png?raw=true" width="885">
 _Screenshot van de Figures_
 
   De img's, dat wil zeggen de "blurs" en het logo/symbool, zitten in een Figure. Dit is omdat ze vrijstaande elementen zijn.
@@ -68,7 +68,7 @@ De tekst en knopjes zitten in een grid die ervoor zorgt dat de elementen op de j
 De breedte van de foto's worden bepaald door deze CSS property
 #### Media Queries
 De regel '@media (min-width:600px)' zorgt ervoor dat bepaalde CSS regels alleen gelden bij een scherm dat boven de 600 pixels breed is
-<img alt="Drop en Heal smartphone webpagina" src="https://nyathene.github.io/the-client-website/docs/screenshots/Mobiel.png" width="885">
+<img alt="Drop en Heal smartphone webpagina" src="https://github.com/Nyathene/the-client-website/blob/main/docs/Screenshots/Mobiel.jpeg?raw=true" width="885">
 _Layout van de intro / homepage op een smal scherm_
 
 
