@@ -24,10 +24,9 @@ body {
     "header"
     "text"
     "buttons";
-  /*background-image: url("../assets/RT1.png");
-  background-size: 18em;
-  background-repeat: no-repeat;
-  background-position: -5em center;*/
+    @media (min-width:600px) {
+      justify-content: center;
+    }
 }
 
 .blank {
@@ -39,16 +38,27 @@ h1 {
   line-height: 0.8em;
   grid-area: header;
 }
-
+.rechtsboven{
+  position: absolute;
+  right: -20em;
+  top: -20em;
+  z-index: -1;  
+}
+.rechtsboven img{
+  width: 40em;
+}
 .logo {
   position: absolute;
   left: -7.5em;
   top: 21.21%;
-  z-index: -1;
+  z-index: -1;  
 }
 
 .logo img {
   width: 18em;
+}
+.transparent img{
+  opacity: 25%;;
 }
 
 p {
@@ -57,40 +67,50 @@ p {
   font-style: normal;
   font-size: 1em;
   grid-area: text;
+  max-width: 30em;
 }
 
-.starten {
+.tekst{
+  margin-top: -8em;
+  line-height: 1.5em;
+}
+.button{
+  text-decoration: none;
+  grid-area: buttons; 
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+button{
   grid-area: buttons;
   box-sizing: border-box;
-
   display: flex;
-  flex-direction: row;
   justify-content: center;
   justify-self: center;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
-  width: 107px;
-  height: 43px;
-  left: calc(50% - 107px/2 - 1.5px);
-  bottom: 36px;
-
   background: var(--main-bg-colour);
-  border: 1px solid #F5F5F5;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--text-colour);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 25);
   border-radius: 37.5px;
 }
-
-.starten p {
+button p {
   width: 54px;
   height: 19px;
-
   font-family: 'Figtree';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   color: var(--text-colour);
+}
+.starten {
+  width: 107px;
+  height: 43px;
+}
+.pijl {
+  width: 45px;
+  height: 45px;
 }
